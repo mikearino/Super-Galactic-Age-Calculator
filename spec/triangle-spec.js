@@ -13,7 +13,8 @@ describe('Triangle', function () {
       var notTriangle = new Triangle(3, 2, 3);
       console.log(notTriangle.checkType());
       expect(notTriangle.checkType()).toEqual('not a triangle');
-      debugger;
+
+
     });
 
 });
