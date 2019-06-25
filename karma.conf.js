@@ -3,7 +3,7 @@ const webpackConfig = require('./webpack.config.js');
 module.exports = function(config) {
   config.set({
     basePath: '',
-    frameworks: ['jquery-3.4.1', 'jasmine'],
+    frameworks: ['jquery-3.2.1', 'jasmine'],
     files: [
       'src/*.js',
       'spec/*spec.js'
