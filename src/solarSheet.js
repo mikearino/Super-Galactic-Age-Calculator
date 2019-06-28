@@ -20,17 +20,17 @@ export class SolarCalc {
     this.mercury = this.earthAge / .24
   }
 
-  // venusAge () {
-  //   this.venus = this.earthAge / .62
-  // }
-  //
-  // marsAge () {
-  //   this.mars = this.earthAge / 1.88
-  // }
-  //
-  // jupiterAge () {
-  //   this.jupiter = this.earthAge / 11.86
-  // }
+  venusAge () {
+    this.venus = this.earthAge / .62
+  }
+
+  marsAge () {
+    this.mars = this.earthAge / 1.88
+  }
+  
+  jupiterAge () {
+    this.jupiter = this.earthAge / 11.86
+  }
 };
 
 let mike = new SolarCalc ('1984')
