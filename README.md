@@ -7,7 +7,7 @@
 ## Description
 
 A webpage created with jQuery, CSS and HTML to calculate the users age depending on the different planets solar years.
-A user inputs their age and it calculates through back end logic to determine what their age would be if they lived on a given planet.
+A user inputs their age and it calculates what their age would be if they lived on a given planet.
 
 ### Specs
 | Spec                                    | Input                            | Output                                    |
