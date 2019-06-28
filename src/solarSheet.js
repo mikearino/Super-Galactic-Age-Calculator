@@ -4,12 +4,13 @@ export class SolarCalc {
     this.daysAlive = []
   }
 
-  getDaysAlive (age) {
-    let conversion = new Date(this.age)
-    console.log(conversion)
-    this.daysAlive.push(conversion)
+  dayMaker (age) {
+    const getDays = this.age * 365
+    this.daysAlive.push(getDays).toString()
     }
 };
+
+let mike = new SolarCalc (35)
 //   assignId () {
 //     this.currentId += 1;
 //     return this.currentId;
