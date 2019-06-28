@@ -1,12 +1,12 @@
 export class SolarCalc {
   constructor (age){
     this.age = age,
-    this.daysAlive = []
+    this.daysAlive = ''
   }
 
   dayMaker () {
     const getDays = new Date(this.age)
-    this.daysAlive.push(getDays)
+    this.daysAlive = getDays
     }
 };
 

@@ -1,3 +1,4 @@
+
 import { SolarCalc } from './../src/solarSheet.js';
 
 describe('SolarCalc', function () {
