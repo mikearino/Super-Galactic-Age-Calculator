@@ -30,7 +30,7 @@ describe('SolarCalc', function () {
     expect(mattDamon.mars).toEqual(14.361702127659575);
   });
 
-  it('should correctly determine the users age for Mars', function () {
+  it('should correctly determine the users age for Jupiter', function () {
     const bobBarker = new SolarCalc('2010')
     bobBarker.ageMaker()
     bobBarker.jupiterAge()

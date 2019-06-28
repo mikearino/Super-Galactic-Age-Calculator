@@ -10,10 +10,14 @@ A webpage created with jQuery, CSS and HTML to calculate the users age depending
 A user inputs their age and it calculates through back end logic to determine what their age would be if they lived on a given planet.
 
 ### Specs
-| Spec                                                                       | Input                            | Output                                    |
-| :------------------------------------------------------------------------- | :------------------------------- | :---------------------------------------- |
-| The user inputs a word                                                     | cat                              | "please enter a number"                   |
-| The user inputs a       | i                                | iay                                       |
+| Spec                                    | Input                            | Output                                    |
+| :---------------------------------------| :------------------------------- | :---------------------------------------- |
+| The user inputs a year they were born   | 1980                              | 35                                       |
+| The user clicks on Mercury              | 1995                              |100                                       |
+| The user clicks on Venus                | 1919                              |161.29032258064515                        |
+| The user clicks on Mars              | 1992                              |14.361702127659575                                      |
+| The user clicks on Jupiter  | 2010                              | 0.7588532883642496                                       |
+
 
 ## Setup/Installation Requirements
 
