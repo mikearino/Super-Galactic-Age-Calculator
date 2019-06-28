@@ -1,22 +1,25 @@
 export class SolarCalc {
-  constructor (hp, attack){
-    this.hp = hp,
-    this.attack = attack,
-    this.level = 1
-    this.life = true;
-    this.currentId = 0;
-    this.exp = 0;
+  constructor (age){
+    this.age = age,
+    this.daysAlive = []
   }
-  assignId () {
-    this.currentId += 1;
-    return this.currentId;
-  }
-  levelUp (exp) {
-    this.exp += exp
-    if (this.exp >= 50) {
-      this.level++
+
+  getDaysAlive (age) {
+    let conversion = new Date(this.age)
+    console.log(conversion)
+    this.daysAlive.push(conversion)
     }
-  };
+};
+//   assignId () {
+//     this.currentId += 1;
+//     return this.currentId;
+//   }
+//   levelUp (exp) {
+//     this.exp += exp
+//     if (this.exp >= 50) {
+//       this.level++
+//     }
+//   };
 
 
 
@@ -29,4 +32,3 @@ export class SolarCalc {
   //     char1
   //   }
   // }
-};
