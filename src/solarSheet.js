@@ -9,11 +9,11 @@ export class SolarCalc {
   }
 
   ageMaker () {
-    const getYear = new Date(this.year) // gets full year with junk
-    const yearBorn = getYear.getFullYear()// extracts Actual year born
-    const currentDay = new Date //creates a new date
-    const currentYear = currentDay.getFullYear()// gets actual year for new date
-    this.earthAge = currentYear - yearBorn - 1 //gets actual age
+    const getYear = new Date(this.year)
+    const yearBorn = getYear.getFullYear()
+    const currentDay = new Date
+    const currentYear = currentDay.getFullYear()
+    this.earthAge = currentYear - yearBorn - 1
     }
 
   mercuryAge () {
@@ -32,5 +32,3 @@ export class SolarCalc {
     this.jupiter = this.earthAge / 11.86
   }
 };
-
-let mike = new SolarCalc ('1984')
