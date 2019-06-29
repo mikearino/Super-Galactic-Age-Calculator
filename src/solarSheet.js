@@ -2,6 +2,9 @@ export class SolarCalc {
   constructor (year){
     this.year = year,
     this.earthAge = '',
+    this.smokes = '',
+    this.drinks = '',
+    this.exercises = '',
     this.mercury = '',
     this.venus = '',
     this.mars = '',
@@ -16,7 +19,25 @@ export class SolarCalc {
     this.earthAge = currentYear - yearBorn - 1
     }
 
-  mercuryAge () {
+    smokeAlarm() {
+      if (this.smokes === true) {
+        this.earthAge - 10
+      }
+    }
+
+    boozeCruiser() {
+      if (this.drinks === true) {
+        this.earthAge - 5
+      }
+    }
+
+    heckaSwoll() {
+      if (this.exercises === true) {
+        this.earthAge + 10
+      }
+    }
+
+    mercuryAge () {
     this.mercury = this.earthAge / .24
   }
 
