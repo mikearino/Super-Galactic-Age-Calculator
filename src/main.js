@@ -26,12 +26,12 @@ $(document).ready(function() {
     const marsNope = newPerson.marsAgeExpect();
     const jupiDont = newPerson.jupiterAgeExpect();
     $('#result').append("<li>" + `You're ${newPerson.mercury.toFixed()} years old on Mercury.` + "</li>")
-    $('#result').append("<li>" + `You would survive for 2 seconds on mercury. You have cheated death for ${mcDeath} years.` + "</li>")
+    $('#result').append("<li>" + `You would survive for 2 seconds on mercury. You have cheated death for: ${mcDeath} years.` + "</li><br>")
     $('#result').append("<li>" + `You're ${newPerson.venus.toFixed()} years old on Venus.` + "</li>")
-    $('#result').append("<li>" + `You would survive for less than one second on Venus. You have cheated death for ${veNope} years.` + "</li>")
+    $('#result').append("<li>" + `You would survive for less than one second on Venus. You have cheated death for: ${veNope} years.` + "</li><br>")
     $('#result').append("<li>" + `You're ${newPerson.mars.toFixed()} years old on Mars.` + "</li>")
-    $('#result').append("<li>" + `You would survive for 2 seconds on Mars. You have cheated death for ${marsNope} years.` + "</li>")
+    $('#result').append("<li>" + `You would survive for 2 seconds on Mars. You have cheated death for: ${marsNope} years.` + "</li><br>")
     $('#result').append("<li>" + `You're ${newPerson.jupiter.toFixed()} years old on Jupiter.` + "</li>")
-    $('#result').append("<li>" + `You would survive for less than one second on Jupiter. You have cheated death for ${jupiDont} years.` + "</li>")
+    $('#result').append("<li>" + `You would survive for less than one second on Jupiter. You have cheated death for: ${jupiDont} years.` + "</li>")
   });
 });

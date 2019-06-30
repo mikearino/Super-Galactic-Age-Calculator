@@ -1,0 +1,66 @@
+.jumbotron{
+
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 5s ease infinite;
+-z-animation: rainbow 5s ease infinite;
+-o-animation: rainbow 5s ease infinite;
+  animation: rainbow 5s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
+
+}
+
+body {
+  font-family: monospace;
+  text-align: center;
+  background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+form {
+  font-size: 25px;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
