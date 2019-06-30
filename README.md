@@ -13,13 +13,17 @@ A user inputs their age and it calculates what their age would be if they lived 
 | Spec                                    | Input                            | Output                                    |
 | :---------------------------------------| :------------------------------- | :---------------------------------------- |
 | The user inputs a year they were born   | 1980                              | 35                                       |
-| The user clicks on Mercury              | 1995                              |100                                       |
-| The user clicks on Venus                | 1919                              |161.29032258064515                        |
-| The user clicks on Mars                 | 1992                              |14.361702127659575                        |
-| The user clicks on Jupiter              | 2010                              | 0.7588532883642496                       |
+| The user gets a readout for mercury     | 1984                              |146 years old                             |
+| The user gets a readout for Venus       | 1984                              |56 years old                              |
+| The user gets a readout Mars            | 1984                              |19 years old                              |
+| The user clicks on Jupiter              | 1984                              | 3 years old                              |
 | The user smokes so they become older by 10 years|35, smokes                 |45                                        |
 | The user drinks so they become older by 5 years|35, drinks                  |40                                        |
 | The user exercises so they become younger by 10 years| 35, exercises        |25                                        |
+| The user gets a readout for life expectancy mercury| 1984                   |145.9999996194825 years                   |
+| The user gets a readout for life expectancy Venus| 1984                     |55.999999984155956 years                  |
+| The user gets a readout for life expectancy Mars| 1984                      |18.999999619482494 years                  |
+| The user gets a readout for life expectancy Jupiter| 1984                   |2.999999984155956 years                   |
 
 ## Setup/Installation Requirements
 
