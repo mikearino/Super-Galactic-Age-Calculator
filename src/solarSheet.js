@@ -20,20 +20,20 @@ export class SolarCalc {
     }
 
     smokeAlarm() {
-      if (this.smokes === true) {
+      if (this.smokes === "true") {
         this.earthAge += 10
         return this.earthAge
       }
     }
 
     boozeCruiser() {
-      if (this.drinks === true) {
+      if (this.drinks === "true") {
         this.earthAge += 5
       }
     }
 
     stairMaster() {
-      if (this.exercises === true) {
+      if (this.exercises === "true") {
         this.earthAge -= 10
       }
     }
@@ -61,5 +61,3 @@ export class SolarCalc {
     this.jupiter = this.earthAge / 11.86
   }
 };
-
-const dave = new SolarCalc('1984', true, true, true)
