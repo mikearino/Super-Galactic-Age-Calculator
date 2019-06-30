@@ -36,4 +36,25 @@ describe('SolarCalc', function () {
     bobBarker.jupiterAge()
     expect(bobBarker.jupiter).toEqual(0.7588532883642496);
   });
+
+  it('should correctly increase the users age if user smokes by 10', function () {
+    const malboroMan = new SolarCalc('1984', true)
+    malboroMan.ageMaker()
+    malboroMan.smokeAlarm()
+    expect(malboroMan.earthAge).toEqual(45);
+  });
+
+  it('should correctly increase the users age if user drinks by 5', function () {
+    const drunkTron5000 = new SolarCalc('1984', true, true, false)
+    drunkTron5000.ageMaker()
+    drunkTron5000.boozeCruiser()
+    expect(drunkTron5000.earthAge).toEqual(40);
+  });
+
+  it('should correctly decrease the users age if user exercises by 10', function () {
+    const healthNut = new SolarCalc('1984', false, false, true)
+    healthNut.ageMaker()
+    healthNut.stairMaster()
+    expect(healthNut.earthAge).toEqual(25);
+  });
 });

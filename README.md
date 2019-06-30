@@ -15,9 +15,11 @@ A user inputs their age and it calculates what their age would be if they lived 
 | The user inputs a year they were born   | 1980                              | 35                                       |
 | The user clicks on Mercury              | 1995                              |100                                       |
 | The user clicks on Venus                | 1919                              |161.29032258064515                        |
-| The user clicks on Mars              | 1992                              |14.361702127659575                                      |
-| The user clicks on Jupiter  | 2010                              | 0.7588532883642496                                       |
-
+| The user clicks on Mars                 | 1992                              |14.361702127659575                        |
+| The user clicks on Jupiter              | 2010                              | 0.7588532883642496                       |
+| The user smokes so they become older by 10 years|35, smokes                 |45                                        |
+| The user drinks so they become older by 5 years|35, drinks                  |40                                        |
+| The user exercises so they become younger by 10 years| 35, exercises        |25                                        |
 
 ## Setup/Installation Requirements
 

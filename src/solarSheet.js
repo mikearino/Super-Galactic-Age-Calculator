@@ -1,10 +1,10 @@
 export class SolarCalc {
-  constructor (year){
+  constructor (year, smokes, drinks, exercises){
     this.year = year,
     this.earthAge = '',
-    this.smokes = '',
-    this.drinks = '',
-    this.exercises = '',
+    this.smokes = smokes,
+    this.drinks = drinks,
+    this.exercises = exercises,
     this.mercury = '',
     this.venus = '',
     this.mars = '',
@@ -21,28 +21,36 @@ export class SolarCalc {
 
     smokeAlarm() {
       if (this.smokes === true) {
-        this.earthAge - 10
+        this.earthAge += 10
+        return this.earthAge
       }
     }
 
     boozeCruiser() {
       if (this.drinks === true) {
-        this.earthAge - 5
+        this.earthAge += 5
       }
     }
 
-    heckaSwoll() {
+    stairMaster() {
       if (this.exercises === true) {
-        this.earthAge + 10
+        this.earthAge -= 10
       }
     }
 
     mercuryAge () {
     this.mercury = this.earthAge / .24
+     if(this.mercury >= 100) {
+       // console.log("You made it past the life expectancy you have" + this.mercury - 100)
+     }
   }
 
   venusAge () {
     this.venus = this.earthAge / .62
+    if(this.venus >= 100) {
+      console.log("You made it past 100 you have" + this.venus - 100 +
+      " years to live!")
+    }
   }
 
   marsAge () {
@@ -53,3 +61,5 @@ export class SolarCalc {
     this.jupiter = this.earthAge / 11.86
   }
 };
+
+const dave = new SolarCalc('1984', true, true, true)
