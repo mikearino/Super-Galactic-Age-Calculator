@@ -82,6 +82,6 @@ describe('SolarCalc', function () {
     const jupiterPerson = new SolarCalc('1984')
     jupiterPerson.ageMaker()
     jupiterPerson.venusAge()
-    expect(jupiterPerson.venusAgeExpect()).toEqual(2.999999984155956 years);
+    expect(jupiterPerson.venusAgeExpect()).toEqual(55.999999984155956);
   });
 });
