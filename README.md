@@ -48,6 +48,6 @@ If there are any questions, bugs or concerns, please contact mikeylofgren@gmail.
 
 ### License
 
-*{This software is licensed under the MIT license}*
+*This software is licensed under the MIT license*
 
 Copyright (c) 2019 **Mike Lofgren**
