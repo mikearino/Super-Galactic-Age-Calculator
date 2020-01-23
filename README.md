@@ -4,11 +4,11 @@
 
 #### By **Mike Lofgren**
 
-## Description
-
 <p align="center">
   <img src="sgac.gif">
 </p>
+
+## Description
 
 A webpage created with jQuery, Javascript, CSS and HTML to calculate the users age depending on the different planets solar years.
 A user inputs their age and it calculates what their age would be if they lived on a given planet.
