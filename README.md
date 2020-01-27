@@ -2,7 +2,7 @@
 
 https://space-1bb82.firebaseapp.com/
 
-#### A webpage created for determining a users age based on a planet's solar years
+#### A webpage created for determining a users age based on a planet's solar years. Deployed to Google Firebase.
 
 #### By **Mike Lofgren**
 
